@@ -8,8 +8,3 @@ const getFromLocalStorage = key => localStorage.getItem(key);
 function getRandomNumber(start, end) {
     return Math.floor(Math.random() * (end - start + 1)) + start;
 }
-
-// Checks if a str is made out of only numbers
-function isNumeric(str) {
-    return /^\d+$/.test(str);
-}
