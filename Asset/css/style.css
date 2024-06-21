@@ -1,15 +1,17 @@
-*{
-    box-sizing: border-box
+* {
+    box-sizing: border-box;
 }
-html{
+
+html {
     height: 100%;
     width: 100%;
 }
-body{
-    height: 100%;
-    width: 100%;
+
+body {
     box-sizing: border-box;
     font-family: Helvetica;
-    padding: 0;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    width: 100%;
 }
